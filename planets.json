@@ -15,7 +15,7 @@
         "color": "#ffd700",
         "distanceFromSun": 80,
         "orbitalPeriod": 0.62,
-        "image": "",
+        "image": "images/venus.png",
         "surfaceDescription": "Venus is the second planet from the Sun and has a thick, toxic atmosphere.",
         "formationInfo": "Venus likely formed from the solar nebula around the same time as Earth.",
         "moons": 0
@@ -37,7 +37,7 @@
         "color": "#ff4500",
         "distanceFromSun": 150,
         "orbitalPeriod": 1.88,
-        "image": "",
+        "image": "images/mars.png",
         "surfaceDescription": "Mars is the fourth planet from the Sun and is known as the Red Planet.",
         "formationInfo": "Mars formed from the solar nebula around 4.5 billion years ago.",
         "moons": 2
@@ -48,7 +48,7 @@
         "color": "#d2691e",
         "distanceFromSun": 250,
         "orbitalPeriod": 11.86,
-        "image": "",
+        "image": "images/jupiter.png",
         "surfaceDescription": "Jupiter is the largest planet in our solar system and has a Great Red Spot.",
         "formationInfo": "Jupiter likely formed by the rapid accretion of gas around a solid core.",
         "moons": 79
@@ -59,7 +59,7 @@
         "color": "#daa520",
         "distanceFromSun": 350,
         "orbitalPeriod": 29.46,
-        "image": "",
+        "image": "images/saturn.png",
         "surfaceDescription": "Saturn is the sixth planet from the Sun, famous for its prominent ring system.",
         "formationInfo": "Saturn formed about 4.5 billion years ago, possibly from the same materials as Jupiter.",
         "moons": 83
@@ -70,7 +70,7 @@
         "color": "#40e0d0",
         "distanceFromSun": 450,
         "orbitalPeriod": 84.01,
-        "image": "",
+        "image": "images/uranus.png",
         "surfaceDescription": "Uranus is the seventh planet from the Sun and has a unique sideways rotation.",
         "formationInfo": "Uranus likely formed from the solar nebula, similar to the other gas giants.",
         "moons": 27
@@ -81,7 +81,7 @@
         "color": "#4169e1",
         "distanceFromSun": 550,
         "orbitalPeriod": 164.8,
-        "image": "",
+        "image": "images/neptune.png",
         "surfaceDescription": "Neptune is the eighth planet from the Sun and is known for its strong winds.",
         "formationInfo": "Neptune likely formed in a similar way to Uranus, from the solar nebula.",
         "moons": 14
