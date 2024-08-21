@@ -1,0 +1,89 @@
+[{
+        "name": "Mercury",
+        "size": 3,
+        "color": "#a6a6a6",
+        "distanceFromSun": 50,
+        "orbitalPeriod": 0.24,
+        "image": "images/mercury.png",
+        "surfaceDescription": "Mercury is the smallest planet in our solar system and closest to the Sun.",
+        "formationInfo": "Mercury formed about 4.5 billion years ago, similar to other planets in our solar system.",
+        "moons": 0
+    },
+    {
+        "name": "Venus",
+        "size": 6,
+        "color": "#ffd700",
+        "distanceFromSun": 80,
+        "orbitalPeriod": 0.62,
+        "image": "",
+        "surfaceDescription": "Venus is the second planet from the Sun and has a thick, toxic atmosphere.",
+        "formationInfo": "Venus likely formed from the solar nebula around the same time as Earth.",
+        "moons": 0
+    },
+    {
+        "name": "Earth",
+        "size": 6,
+        "color": "#1e90ff",
+        "distanceFromSun": 110,
+        "orbitalPeriod": 1.0,
+        "image": "images/earth.png",
+        "surfaceDescription": "Earth is the third planet from the Sun and the only planet known to support life.",
+        "formationInfo": "Earth formed about 4.5 billion years ago from the accretion of the solar nebula.",
+        "moons": 1
+    },
+    {
+        "name": "Mars",
+        "size": 4,
+        "color": "#ff4500",
+        "distanceFromSun": 150,
+        "orbitalPeriod": 1.88,
+        "image": "",
+        "surfaceDescription": "Mars is the fourth planet from the Sun and is known as the Red Planet.",
+        "formationInfo": "Mars formed from the solar nebula around 4.5 billion years ago.",
+        "moons": 2
+    },
+    {
+        "name": "Jupiter",
+        "size": 12,
+        "color": "#d2691e",
+        "distanceFromSun": 250,
+        "orbitalPeriod": 11.86,
+        "image": "",
+        "surfaceDescription": "Jupiter is the largest planet in our solar system and has a Great Red Spot.",
+        "formationInfo": "Jupiter likely formed by the rapid accretion of gas around a solid core.",
+        "moons": 79
+    },
+    {
+        "name": "Saturn",
+        "size": 10,
+        "color": "#daa520",
+        "distanceFromSun": 350,
+        "orbitalPeriod": 29.46,
+        "image": "",
+        "surfaceDescription": "Saturn is the sixth planet from the Sun, famous for its prominent ring system.",
+        "formationInfo": "Saturn formed about 4.5 billion years ago, possibly from the same materials as Jupiter.",
+        "moons": 83
+    },
+    {
+        "name": "Uranus",
+        "size": 8,
+        "color": "#40e0d0",
+        "distanceFromSun": 450,
+        "orbitalPeriod": 84.01,
+        "image": "",
+        "surfaceDescription": "Uranus is the seventh planet from the Sun and has a unique sideways rotation.",
+        "formationInfo": "Uranus likely formed from the solar nebula, similar to the other gas giants.",
+        "moons": 27
+    },
+    {
+        "name": "Neptune",
+        "size": 8,
+        "color": "#4169e1",
+        "distanceFromSun": 550,
+        "orbitalPeriod": 164.8,
+        "image": "",
+        "surfaceDescription": "Neptune is the eighth planet from the Sun and is known for its strong winds.",
+        "formationInfo": "Neptune likely formed in a similar way to Uranus, from the solar nebula.",
+        "moons": 14
+    }
+]

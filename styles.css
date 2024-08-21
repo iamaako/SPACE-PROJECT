@@ -1,0 +1,466 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+  }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 30px;
+    background: #ffffff38;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: yellow;
+    font-weight: 500;
+    border-bottom: 1px solid #ffffff8f;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Center the modal on the screen */
+
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Fade-in and fade-out animations */
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+/* Initially hide the modal */
+
+.modal {
+    display: none;
+}
+
+
+/* Glass effect styling */
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* Center the modal on the screen */
+
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Fade-in and fade-out animations */
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+/* Close button */
+
+.modal-header .close {
+    outline: none;
+}
+
+
+/* Full-screen canvas */
+
+#solarSystemCanvas {
+    display: block;
+    /* Prevent scrollbars */
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* For smaller screens, adjust font size and spacing */
+
+@media (max-width: 576px) {
+    .modal-header .modal-title {
+        font-size: 1rem;
+    }
+}
+
+
+/* Ensure modal dialog is responsive */
+
+.modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+
+/* For very small screens, ensure the modal content does not overflow */
+
+.modal-content {
+    overflow: hidden;
+}
+
+
+/* Adjust image inside modal to be responsive */
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Responsive adjustments for modal header */
+
+.modal-header .modal-title {
+    font-size: 1.25rem;
+    /* Adjust size for different screens */
+}
+
+
+/* Full-screen canvas */
+
+#solarSystemCanvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Glass effect styling for the modal */
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* Ensure modal dialog is responsive */
+
+.modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+
+/* Ensure modal content fits well */
+
+.modal-content {
+    overflow: hidden;
+    color: #fff;
+}
+
+
+/* Responsive image inside modal */
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Adjust modal header for smaller screens */
+
+.modal-header .modal-title {
+    font-size: 1.25rem;
+}
+
+
+/* Adjust font sizes for very small screens */
+
+@media (max-width: 576px) {
+    .modal-header .modal-title {
+        font-size: 1rem;
+    }
+}
+
+
+/* Fade-in and fade-out animations */
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+
+/* Modal content */
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    /* Default text color for modal content */
+}
+
+
+/* Modal header */
+
+.modal-header {
+    /* Background color for header */
+    color: #ffffff;
+    /* Text color for header */
+}
+
+
+/* Close button */
+
+.close {
+    color: black !important;
+    outline: none !important;
+    border: none !important;
+    font-size: 25px;
+    /* Color for close button */
+}
+
+.close:hover {
+    color: black !important;
+    outline: none !important;
+    border: none !important;
+}
+
+
+/* Modal body */
+
+.modal-body {
+    display: flex;
+    padding: 20px;
+}
+
+
+/* Modal image section */
+
+.modal-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.modal-image img {
+    width: 150px;
+    /* Fixed width for images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Optional: Rounded corners for image */
+}
+
+
+/* Modal details section */
+
+.modal-details {
+    flex: 2;
+}
+
+
+/* Text color for specific elements */
+
+#planetName {
+    color: #f0f8ff;
+    /* Light color for planet name */
+}
+
+#planetSurfaceDescription,
+#planetFormationInfo,
+#planetMoons {
+    color: #d3d3d3;
+    /* Lighter color for other text elements */
+}
+
+
+/* Adjusting the modal close button for a better look */
+
+.close {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Modal content */
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    /* Default text color for modal content */
+}
+
+
+/* Modal header */
+
+.modal-header {
+    /* Background color for header */
+    color: #ffffff;
+    /* Text color for header */
+}
+
+
+/* Close button */
+
+.close {
+    color: #ffffff;
+    /* Color for close button */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Modal body */
+
+.modal-body {
+    display: flex;
+    padding: 20px;
+}
+
+
+/* Modal image section */
+
+.modal-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.modal-image img {
+    width: 150px;
+    /* Fixed width for images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Optional: Rounded corners for image */
+}
+
+
+/* Modal details section */
+
+.modal-details {
+    flex: 2;
+}
+
+
+/* Text color for specific elements */
+
+#planetName {
+    color: #ffffff;
+    /* Light color for planet name */
+}
+
+#planetSurfaceDescription,
+#planetFormationInfo,
+#planetMoons {
+    color: #d3d3d3;
+    /* Lighter color for other text elements */
+}
+
+
+/* changes */
+
+#planetDetailsDialog {
+    backdrop-filter: blur(1px);
+}
+
+.modal-content {
+    background: #a3a3a380;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.modal-details {
+    padding: 30px 20px;
+    background: #0000005c;
+    border-radius: 8px;
+}
+
+#planetName {
+    color: yellow;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+#planetSurfaceDescription,
+#planetFormationInfo,
+#planetMoons {
+    color: #ffffff;
+    font-size: 18px;
+}
