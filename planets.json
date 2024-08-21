@@ -5,9 +5,9 @@
         "distanceFromSun": 50,
         "orbitalPeriod": 0.24,
         "image": "images/mercury.png",
-        "surfaceDescription": "Mercury is the smallest planet in our solar system and closest to the Sun.",
-        "formationInfo": "Mercury formed about 4.5 billion years ago, similar to other planets in our solar system.",
-        "moons": 0
+        "surfaceDescription": "The planet has a heavily cratered surface, similar to the Moon, and lacks substantial geological activity",
+        "formationInfo": "Mercury formed about 4.5 billion years ago when gravity pulled swirling gas and dust together to form this small planet nearest the Sun. The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. ",
+        "moons": "Mercury doesn't have moons"
     },
     {
         "name": "Venus",
@@ -16,9 +16,9 @@
         "distanceFromSun": 80,
         "orbitalPeriod": 0.62,
         "image": "images/venus.png",
-        "surfaceDescription": "Venus is the second planet from the Sun and has a thick, toxic atmosphere.",
-        "formationInfo": "Venus likely formed from the solar nebula around the same time as Earth.",
-        "moons": 0
+        "surfaceDescription": "It's the hottest planet in our solar system and it’s surface temperatures is hot enough to melt lead",
+        "formationInfo": "Venus was likely formed in the large cloud of gas, dust, and ice of the ancient solar system, which collapsed into a spinning disc.Venus is the second planet from the Sun, and our closest planetary neighbor.Venus is similar in structure and size to Earth and is sometimes called Earth's twin. Venus is the third brightest object in the sky after the Sun and Moon. ",
+        "moons": "Venus is one of only two planets in our solar system that doesn't have a moons. "
     },
     {
         "name": "Earth",
@@ -27,9 +27,9 @@
         "distanceFromSun": 110,
         "orbitalPeriod": 1.0,
         "image": "images/earth.png",
-        "surfaceDescription": "Earth is the third planet from the Sun and the only planet known to support life.",
-        "formationInfo": "Earth formed about 4.5 billion years ago from the accretion of the solar nebula.",
-        "moons": 1
+        "surfaceDescription": "It is the only world in our solar system with liquid water on the surface",
+        "formationInfo": "When the solar system settled into its current layout about 4.5 billion years ago, Earth formed when gravity pulled swirling gas and dust in to become the third planet from the Sun. Like its fellow terrestrial planets, Earth has a central core, a rocky mantle, and a solid crust.Earth is the third planet from the Sun, and the fifth largest planet. It's the only place we know of inhabited by living things. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal",
+        "moons": "Earth is the only planet that has a single moon. Our moon is the brightest and most familiar object in the night sky."
     },
     {
         "name": "Mars",
@@ -38,9 +38,9 @@
         "distanceFromSun": 150,
         "orbitalPeriod": 1.88,
         "image": "images/mars.png",
-        "surfaceDescription": "Mars is the fourth planet from the Sun and is known as the Red Planet.",
-        "formationInfo": "Mars formed from the solar nebula around 4.5 billion years ago.",
-        "moons": 2
+        "surfaceDescription": "Mars is called the Red Planet because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red. while Mars is about half the diameter of Earth, its surface has nearly the same area as Earth’s dry land.",
+        "formationInfo": "When the solar system settled into its current layout about 4.5 billion years ago, Mars formed when gravity pulled swirling gas and dust in to become the fourth planet from the Sun. It has a central core, a rocky mantle, and a solid crust. Mars – the fourth planet from the Sun – is a dusty, cold, desert world with a very thin atmosphere. With a radius of 2,106 miles (3,390 kilometers), Mars is about half the size of Earth. If Earth were the size of a nickel, Mars would be about as big as a raspberry.",
+        "moons": "Mars has two small moons, Phobos and Deimos, that may be captured asteroids. They're potato-shaped because they have too little mass for gravity to make them spherical."
     },
     {
         "name": "Jupiter",
@@ -49,9 +49,9 @@
         "distanceFromSun": 250,
         "orbitalPeriod": 11.86,
         "image": "images/jupiter.png",
-        "surfaceDescription": "Jupiter is the largest planet in our solar system and has a Great Red Spot.",
-        "formationInfo": "Jupiter likely formed by the rapid accretion of gas around a solid core.",
-        "moons": 79
+        "surfaceDescription": "As a gas giant, Jupiter doesn’t have a true surface. The planet is mostly swirling gases and liquids",
+        "formationInfo": "It's also the oldest planet, forming from the dust and gases left over from the Sun's formation 4.6 billion years ago. But it has the shortest day in the solar system, taking only 10.5 hours to spin around once on its axis. It's the largest planet in our solar system – if it were a hollow shell, 1,000 Earths could fit inside. Jupiter's signature stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. The dark orange stripes are called belts, while the lighter bands are called zones",
+        "moons": "With four large moons and many smaller moons, Jupiter forms a kind of miniature solar system"
     },
     {
         "name": "Saturn",
@@ -60,9 +60,9 @@
         "distanceFromSun": 350,
         "orbitalPeriod": 29.46,
         "image": "images/saturn.png",
-        "surfaceDescription": "Saturn is the sixth planet from the Sun, famous for its prominent ring system.",
-        "formationInfo": "Saturn formed about 4.5 billion years ago, possibly from the same materials as Jupiter.",
-        "moons": 83
+        "surfaceDescription": "As a gas giant, Saturn doesn’t have a true surface. The planet is mostly swirling gases and liquids deeper down",
+        "formationInfo": "Saturn took shape when the rest of the solar system formed about 4.5 billion years ago when gravity pulled swirling gas and dust in to become this gas giant. About 4 billion years ago, Saturn settled into its current position in the outer solar system. Saturn is the sixth planet from the Sun, and the second-largest planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn’s. ",
+        "moons": "Saturn is home to a vast array of intriguing and unique worlds. As of June 8, 2023, Saturn has 146 moons in its orbit, with others continually awaiting confirmation of their discovery and official naming"
     },
     {
         "name": "Uranus",
@@ -71,9 +71,9 @@
         "distanceFromSun": 450,
         "orbitalPeriod": 84.01,
         "image": "images/uranus.png",
-        "surfaceDescription": "Uranus is the seventh planet from the Sun and has a unique sideways rotation.",
-        "formationInfo": "Uranus likely formed from the solar nebula, similar to the other gas giants.",
-        "moons": 27
+        "surfaceDescription": "As an ice giant, Uranus doesn’t have a true surface. The planet is mostly swirling fluids",
+        "formationInfo": "Uranus took shape when the rest of the solar system formed about 4.5 billion years ago – when gravity pulled swirling gas and dust in to become this ice giant. Like its neighbor Neptune, Uranus likely formed closer to the Sun and moved to the outer solar system about 4 billion years ago, where it is the seventh planet from the Sun.Uranus is the seventh planet from the Sun, and it has the third largest diameter of planets in our solar system. Uranus is four times wider than Earth. If Earth was the size of a nickel, Uranus would be about as big as a softball",
+        "moons": "Uranus has 28 known moons. All of Uranus' inner moons appear to be roughly half water ice and half rock. The composition of the outer moons remains unknown, but they are likely captured asteroids"
     },
     {
         "name": "Neptune",
@@ -82,8 +82,8 @@
         "distanceFromSun": 550,
         "orbitalPeriod": 164.8,
         "image": "images/neptune.png",
-        "surfaceDescription": "Neptune is the eighth planet from the Sun and is known for its strong winds.",
-        "formationInfo": "Neptune likely formed in a similar way to Uranus, from the solar nebula.",
-        "moons": 14
+        "surfaceDescription": "Neptune is one of two ice giants in the outer solar system. Most 80% or more of the planet's mass is made up of a hot dense fluid of icy materials, water, methane, and ammonia, above a small, rocky core. Of the giant planets, Neptune is the densest",
+        "formationInfo": "Neptune took shape when the rest of the solar system formed about 4.5 billion years ago when gravity pulled swirling gas and dust in to become this ice giant. Like its neighbor Uranus, Neptune likely formed closer to the Sun and moved to the outer solar system about 4 billion years ago.Neptune is the eighth and most distant planet in our solar system. Neptune is about four times wider than Earth. If Earth were the size of a nickel, Neptune would be about as big as a baseball",
+        "moons": "Neptune has 16 known moons. Neptune's largest moon Triton was discovered on Oct. 10, 1846, by William Lassell, just 17 days after Johann Gottfried Galle discovered the planet"
     }
 ]
